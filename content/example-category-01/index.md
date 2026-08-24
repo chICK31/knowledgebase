@@ -1,20 +1,12 @@
 ---
-title: Category 01
+title: Cognitive personality types and Octagram
 ---
-## The Category 01 category index page
+## Chapter 1 Everyone has a Psychological Type
 
-### What is this page?
+### What is a Psychological Type?
 
-This is an example category index page inside the knowledge base. This page is located within the `example-category-01` folder, which is located within the `content/` folder. 
+A Psychological Type is a type that someone is born with. It's similar to the MBTI in the sense that they have 4 letters such as ENFJ, ENTJ, etc. 
 
-On your local computer, this page corresponds to the file path: `content/example-category-01/index.md`.
+### Why care about Psychological Type?
 
-### Naming a category page's index
-
-Why is this page's file name `index` (`example-category-01/index.md`) instead of **Category 01**?
-
-This file uses the `title` property/frontmatter to specify the category page title (e.g., `Category 01`). 
-
-Any text added to a category folder's `index.md` file  will be used as the descriptive text for the category page.
-
-A similar category is [[example-category-02/index | Category 02]], which also uses the `index.md` method to specify a category page title and descriptive text.
+It's the window into people's souls, so unless you want to understand people, then you would need to know their type, but also, more importantly, their octagram.
