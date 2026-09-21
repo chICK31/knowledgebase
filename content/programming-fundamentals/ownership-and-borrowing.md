@@ -29,7 +29,7 @@ let length = title_length(&title);
 println!("{title} has {length} characters");
 ```
 
-![[programming-fundamentals/images/ownership-borrowing-flow.svg|A three-step diagram showing a String owned by main, borrowed by a function, and then used again by main]]
+![[assets/ownership-borrowing-flow.svg|A three-step diagram showing a String owned by main, borrowed by a function, and then used again by main]]
 
 *The function temporarily borrows the `String`; ownership remains with `main`, so the original value is still available afterward.*
 
@@ -43,3 +43,15 @@ println!("{title} has {length} characters");
 Ownership affects the parameters and return values in [[functions|Functions]]. It also controls how collections are processed through [[control-flow|Control Flow]] and how fields behave inside [[structs-and-enums|Structs and Enums]]. Understanding the underlying types from [[variables-and-data-types|Variables and Data Types]] helps explain why an integer may copy while a `String` moves.
 
 > Borrowing is temporary access, not shared ownership of the resource.
+
+## Further Reading: RustViz (PDF)
+
+The paper *RustViz: Interactively Visualizing Ownership and Borrowing* explains a teaching tool that displays ownership and borrowing events along a timeline. Its examples connect the rules above to the lifetime of each value and reference.
+
+![[assets/rustviz-ownership-and-borrowing.pdf]]
+
+[Open or download the PDF](../assets/rustviz-ownership-and-borrowing.pdf) if your browser does not display the embedded viewer.
+
+**Source:** Gongming (Gabriel) Luo, Vishnu Reddy, Marcelo Almeida, Yingying Zhu, Ke Du, and Cyrus Omar (2020). *RustViz: Interactively Visualizing Ownership and Borrowing*. [arXiv:2011.09012](https://arxiv.org/abs/2011.09012).
+
+**Image source:** Original ownership-and-borrowing diagram created for this knowledge base.
